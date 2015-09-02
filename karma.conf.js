@@ -33,6 +33,10 @@ module.exports = function(config) {
 
 		autoWatch: true,
 
+		//npm install karma-safari-launcher --save-dev
+		//npm install karma-firefox-launcher --save-dev
+
+		//browsers: ['chrome_without_security', 'Firefox', 'Safari'],
 		browsers: ['chrome_without_security'],
 
 		customLaunchers: {
